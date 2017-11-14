@@ -1,0 +1,153 @@
+[global_config]
+  borderless = True
+  tab_position = bottom
+  title_font = Roboto Mono for Powerline 10
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#2e3436"
+  title_transmit_bg_color = "#ce5c00"
+  title_use_system_font = False
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1200
+      title = I am Terminator 
+      type = Window
+    [[[child1]]]
+      active_page = 1
+      labels = None, None
+      last_active_term = 7501af84-8a69-4ecf-9764-d1b15bcec83d, e1e7b045-9def-4082-8a1d-58161957e12a
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 957
+      ratio = 0.500261369577
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 580
+      ratio = 0.5
+      type = VPaned
+    [[[child7]]]
+      order = 1
+      parent = child5
+      position = 957
+      ratio = 0.500261369577
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 7501af84-8a69-4ecf-9764-d1b15bcec83d
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 0dbd2048-5cd7-461f-8f6f-fd8d6d1fe520
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = e1e7b045-9def-4082-8a1d-58161957e12a
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = 138ca5b6-550b-4dcd-afbd-51f152836160
+    [[[terminal9]]]
+      order = 1
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = bc5662ba-a317-47e2-8d93-da4fc52aff33
+  [[New]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 1920, 1176
+      title = A window title
+      type = Window
+    [[[child1]]]
+      active_page = 1
+      labels = None, None
+      last_active_term = 488a5e37-11ae-4446-8881-874043befbdd, 387ff7fa-de0c-4f81-8485-e407b3e12183
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 573
+      ratio = 0.502191060473
+      type = VPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 961
+      ratio = 0.501042752868
+      type = HPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 959
+      ratio = 0.5
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 488a5e37-11ae-4446-8881-874043befbdd
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = ed077c29-212e-4d8d-89b2-647d7972c732
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = aea9fa24-3778-49ac-83c8-a666b7fccdef
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = 387ff7fa-de0c-4f81-8485-e407b3e12183
+    [[[terminal9]]]
+      order = 1
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = d4154a1d-2daa-4e94-b209-73ab60babac8
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Hack Nerd Font Mono 12
+    foreground_color = "#00ff00"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#ad7fa8:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_system_font = False
