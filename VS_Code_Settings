@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Earthsong",
+    "workbench.iconTheme": "file-icons",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.fontFamily": "'FiraCode Nerd Font'",
+    "editor.fontLigatures": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#36312C",
+        "activityBar.dropBackground": "#36312C",
+        "activityBarBadge.background": "#36312C",
+        "sideBar.background": "#2D2620",
+        "list.activeSelectionBackground": "#36312C",
+        "list.dropBackground": "#36312C",
+        "list.focusBackground": "#36312C",
+        "list.hoverBackground": "#36312C",
+        "list.inactiveSelectionBackground": "#36312C",
+        "statusBar.background": "#36312C"
+    },
+    "window.zoomLevel": 0
+}
