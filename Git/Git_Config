@@ -1,6 +1,6 @@
 [user]
-	email = me@.com 
-	name = Kalle Wallin
+	email = me@site.com 
+	name = Insert User Here
 
 [core]
 	safecrlf = false
@@ -39,5 +39,7 @@
 	default = simple
 [merge]
 	tool = kdiff3
-[includeIf "gitdir:~/stuff/"]
-        path = ~/stuff/.gitconfig
+
+# Different Git credentials for work and play, github and corporate repos etc
+[includeIf "gitdir:~/subdir/"]
+        path = ~/subdir/.gitconfig
